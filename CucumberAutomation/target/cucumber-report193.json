@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 204611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDef.setup0()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8715850334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDef.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-hooks;validate-registration-scenario1",
+        "after": [
+          {
+            "result": {
+              "duration": 246660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDef.teardown0()"
+            }
+          },
+          {
+            "result": {
+              "duration": 753932893,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7937725284,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "HookStepDef.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117172826,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "HookStepDef.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5088653037,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "HookStepDef.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Registration page with hooks",
+    "description": "As a new user, I want to enter firstname and lastname as a parameter",
+    "id": "registration-page-with-hooks",
+    "keyword": "Feature",
+    "uri": "HooksFF.feature"
+  }
+]

@@ -1,0 +1,364 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8795767655,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsOfCucuStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-tags;validate-registration-scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7909698814,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "TagsOfCucuStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130194126,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "TagsOfCucuStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5086831731,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "TagsOfCucuStepDefs.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 715479849,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "TagsOfCucuStepDefs.check_signup_should()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8114188413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsOfCucuStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-tags;validate-registration-scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7692180300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "TagsOfCucuStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155764927,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "TagsOfCucuStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5085412363,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "TagsOfCucuStepDefs.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 722680979,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "TagsOfCucuStepDefs.check_signup_should()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7967168142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsOfCucuStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-tags;validate-registration-scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8584402715,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "TagsOfCucuStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131296313,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "TagsOfCucuStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5104993811,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "TagsOfCucuStepDefs.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 716995893,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "TagsOfCucuStepDefs.check_signup_should()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8020672708,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsOfCucuStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-tags;validate-registration-scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7792880912,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "TagsOfCucuStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140629640,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "TagsOfCucuStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5085380579,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "TagsOfCucuStepDefs.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 710939991,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "TagsOfCucuStepDefs.check_signup_should()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@smoke"
+          },
+          {
+            "line": 26,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Registration page with tags",
+    "description": "As a new user, I want to enter firstname and lastname as a parameter",
+    "id": "registration-page-with-tags",
+    "keyword": "Feature",
+    "uri": "TagsOfCucumberFF.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Important"
+      }
+    ]
+  }
+]

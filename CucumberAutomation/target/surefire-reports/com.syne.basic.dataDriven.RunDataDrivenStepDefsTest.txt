@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.syne.basic.dataDriven.RunDataDrivenStepDefsTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.354 sec

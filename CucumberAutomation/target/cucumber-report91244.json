@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8707560591,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DataTableStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-data-table;validate-registration-scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7873944124,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "DataTableStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 276430715,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters following data",
+            "match": {
+              "location": "DataTableStepDefs.He_enters_user_name(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Labels",
+                  "Params",
+                  "Params1"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "First Name",
+                  "Anil",
+                  "A"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Last Name",
+                  "Kale",
+                  "B"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "email Address",
+                  "email",
+                  "C"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 686250210,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check signup should",
+            "match": {
+              "location": "DataTableStepDefs.check_signup_should()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration page with data table",
+    "description": "As a new user, I want to enter firstname and lastname as a parameter",
+    "id": "registration-page-with-data-table",
+    "keyword": "Feature",
+    "uri": "DataTableUsage.feature"
+  }
+]

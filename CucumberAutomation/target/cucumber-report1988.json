@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7976570997,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DataDrivenExampleStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-data-driven;validate-registration-scenario1;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8220667477,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "DataDrivenExampleStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120905164,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters \"Tom\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 11
+                }
+              ],
+              "location": "DataDrivenExampleStepDefs.He_enters_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5080331179,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"Jerry\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jerry",
+                  "offset": 11
+                }
+              ],
+              "location": "DataDrivenExampleStepDefs.He_enters_user_last_name(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 706176981,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "DataDrivenExampleStepDefs.check_username_is_present_in_textbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8040140924,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DataDrivenExampleStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-data-driven;validate-registration-scenario1;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7702007277,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "DataDrivenExampleStepDefs.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139763518,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters \"Loren\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Loren",
+                  "offset": 11
+                }
+              ],
+              "location": "DataDrivenExampleStepDefs.He_enters_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5080742057,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"Hardy\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hardy",
+                  "offset": 11
+                }
+              ],
+              "location": "DataDrivenExampleStepDefs.He_enters_user_last_name(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 698636155,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "DataDrivenExampleStepDefs.check_username_is_present_in_textbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration page with data driven",
+    "description": "As a new user, I want to enter firstname and lastname as a parameter",
+    "id": "registration-page-with-data-driven",
+    "keyword": "Feature",
+    "uri": "DataDriven.feature"
+  }
+]
