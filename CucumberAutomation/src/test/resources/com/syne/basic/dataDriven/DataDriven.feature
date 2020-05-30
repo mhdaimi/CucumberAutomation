@@ -1,4 +1,4 @@
-@Regression
+@Regression 
 Feature: Registration page with data driven
 As a new user, I want to enter firstname and lastname as a parameter
 
