@@ -1,3 +1,4 @@
+@Regression
 Feature: Registration page33
 As a new user, I want to enter firstname and lastname as a parameter
 
