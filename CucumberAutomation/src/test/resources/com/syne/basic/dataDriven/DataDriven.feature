@@ -11,4 +11,4 @@ Then check username is present in textbox
 Examples:
 		| firstname 			| lastname |
    	 	| Tom  					| Jerry 	 |
-    	| Loren 				| Hardy    |
+    	| Loren 				| Hardo    |
