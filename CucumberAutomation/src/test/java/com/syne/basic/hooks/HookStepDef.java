@@ -21,7 +21,7 @@ public class HookStepDef {
 	@Before(order=1)
 	public void setup() throws InterruptedException {
 		System.out.println("in before hook 1");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\mohammad.daimi\\Cucumber\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		System.out.println("opned browser");
 		Thread.sleep(5000);

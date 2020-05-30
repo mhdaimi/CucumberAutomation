@@ -18,7 +18,7 @@ public class MultiScenarioStepDefs {
 	@Before
 	public void setUp() throws InterruptedException {
 		System.out.println("in setup");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\mohammad.daimi\\Cucumber\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		System.out.println("opned browser");
 		Thread.sleep(5000);

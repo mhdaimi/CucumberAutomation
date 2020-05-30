@@ -10,7 +10,7 @@ public class SharingDriver {
 		
 		if(driver == null){
 			try{
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\mohammad.daimi\\Cucumber\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","src\\test\\resources\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			System.out.println("opned browser");
 			Thread.sleep(5000);
