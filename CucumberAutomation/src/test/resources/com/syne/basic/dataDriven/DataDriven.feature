@@ -6,7 +6,7 @@ Scenario Outline: validate Registration Scenario1
 Given the user is on registration Page
 When he enters "<firstname>" as user name
 And he enters "<lastname>" as user last name
-Then check username is present in textboy
+Then check username is present in textbox
 
 Examples:
 		| firstname 			| lastname |
