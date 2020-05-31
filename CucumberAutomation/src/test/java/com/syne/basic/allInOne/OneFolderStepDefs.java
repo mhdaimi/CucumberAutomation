@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
@@ -19,7 +20,9 @@ public class OneFolderStepDefs {
 	public void setUp() throws InterruptedException {
 		System.out.println("in setup");
 		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors", "--silent");
+		driver = new ChromeDriver(chromeOptions);
 		System.out.println("opned browser");
 		Thread.sleep(5000);
 	}

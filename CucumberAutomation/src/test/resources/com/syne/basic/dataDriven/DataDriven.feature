@@ -11,4 +11,4 @@ Then check username is present in textboy
 Examples:
 		| firstname 			| lastname |
    	 	| Tom  					| Jerry 	 |
-    	| Loren 				| Hardo    |
+    	| Loren 				| HardY    |

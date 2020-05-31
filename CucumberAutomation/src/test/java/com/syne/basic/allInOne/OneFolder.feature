@@ -1,3 +1,4 @@
+@OneFolder
 Feature: Registration page
 As a new user, I want to enter firstname and lastname as a parameter
 
